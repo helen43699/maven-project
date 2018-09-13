@@ -86,23 +86,17 @@
 	<dependencies>
 		<!-- Xml configuration -->
 		<dependency>
-			<!-- 
-			<groupId>com.mulesoft.muleesb</groupId>
-			<artifactId>mule-core-ee</artifactId>
-			 -->
+			<!-- <groupId>com.mulesoft.muleesb</groupId> <artifactId>mule-core-ee</artifactId> -->
 			<groupId>org.mule</groupId>
-            <artifactId>mule-core</artifactId>
+			<artifactId>mule-core</artifactId>
 			<version>${mule.version}</version>
 			<scope>provided</scope>
 		</dependency>
 		<!-- Xml configuration -->
 		<dependency>
-		    <!--  
-			<groupId>com.mulesoft.muleesb.modules</groupId>
-			<artifactId>mule-module-spring-config-ee</artifactId>
-			-->
+			<!-- <groupId>com.mulesoft.muleesb.modules</groupId> <artifactId>mule-module-spring-config-ee</artifactId> -->
 			<groupId>org.mule.modules</groupId>
-            <artifactId>mule-module-spring-config</artifactId>
+			<artifactId>mule-module-spring-config</artifactId>
 			<version>${mule.version}</version>
 			<scope>provided</scope>
 		</dependency>
@@ -217,6 +211,12 @@
 
 	<repositories>
 		<repository>
+			<id>Nexus</id>
+			<name>Nexus Public Repository</name>
+			<url>https://repository-master.mulesoft.org/nexus/content/groups/public/</url>
+			<layout>default</layout>
+		</repository>
+		<repository>
 			<id>Central</id>
 			<name>Central</name>
 			<url>http://repo1.maven.org/maven2/</url>
@@ -225,22 +225,14 @@
 		<repository>
 			<id>mulesoft-releases</id>
 			<name>MuleSoft Releases Repository</name>
-			
+
 			<url>http://repository.mulesoft.org/releases/</url>
 			<layout>default</layout>
 		</repository>
 	</repositories>
 	<pluginRepositories>
-		<!-- <pluginRepository>
-			<id>mulesoft-release</id>
-			<name>mulesoft release repository</name>
-			<layout>default</layout>
-			<url>http://repository.mulesoft.org/releases/</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</pluginRepository>
-		 -->
+		<!-- <pluginRepository> <id>mulesoft-release</id> <name>mulesoft release repository</name> <layout>default</layout> <url>http://repository.mulesoft.org/releases/</url> 
+			<snapshots> <enabled>false</enabled> </snapshots> </pluginRepository> -->
 		<pluginRepository>
 			<id>mule-public</id>
 			<url>https://repository.mulesoft.org/nexus/content/repositories/releases</url>
