@@ -13,7 +13,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<uid>craig123</uid>
 		<pwd></pwd>
-		<mule.version>3.9.1</mule.version>
+		<mule.version>3.9.0</mule.version>
 
 	</properties>
 
@@ -225,6 +225,7 @@
 		<repository>
 			<id>mulesoft-releases</id>
 			<name>MuleSoft Releases Repository</name>
+			
 			<url>http://repository.mulesoft.org/releases/</url>
 			<layout>default</layout>
 		</repository>
