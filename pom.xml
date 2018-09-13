@@ -114,14 +114,14 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.mulesoft.muleesb.transports</groupId>
-			<artifactId>mule-transport-jdbc-ee</artifactId>
-			<version>${mule.version}</version>
+			<groupId>org.mule.transports</groupId>
+			<artifactId>mule-transport-jdbc</artifactId>
+			<version>3.1.4</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.mulesoft.muleesb.transports</groupId>
-			<artifactId>mule-transport-jms-ee</artifactId>
+			<groupId>org.mule.transports</groupId>
+			<artifactId>mule-transport-jms</artifactId>
 			<version>${mule.version}</version>
 			<scope>provided</scope>
 		</dependency>
@@ -199,7 +199,7 @@
 		<dependency>
 			<groupId>org.mule.modules</groupId>
 			<artifactId>mule-module-apikit-soap</artifactId>
-			<version>1.0.3</version>
+			<version>1.1.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.mule.modules</groupId>
